@@ -1,1 +1,2 @@
-npx --no-install lint-staged
+#!/usr/bin/env bash
+pnpm --no-install lint-staged
