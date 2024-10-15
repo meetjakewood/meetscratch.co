@@ -40,12 +40,12 @@ const ValuesSection: React.FC = () => {
 
   return (
     <div>
-      <div className="space-y-2 pb-4 pt-12 md:space-y-5">
+      <div className="space-y-5 pb-4 pt-6 md:pb-4 md:pt-12">
         <h1 className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
           Values
         </h1>
       </div>
-      <div className="container py-6">
+      <div className="container py-3 md:py-6">
         <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
           {values.map((value, index) => (
             <ValueCard

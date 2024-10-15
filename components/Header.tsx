@@ -35,7 +35,7 @@ const Header = () => {
             </Link>
           ))}
         <ThemeSwitch />
-        <MobileNav />
+        {headerNavLinks.length > 0 && <MobileNav />}
       </div>
     </header>
   )
