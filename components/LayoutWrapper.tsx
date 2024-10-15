@@ -3,6 +3,9 @@ import SectionContainer from './SectionContainer'
 import Footer from './Footer'
 import { ReactNode } from 'react'
 import Header from './Header'
+import siteMetadata from '@/data/siteMetadata'
+import headerNavLinks from '@/data/headerNavLinks'
+import Logo from './Logo'
 
 interface Props {
   children: ReactNode
