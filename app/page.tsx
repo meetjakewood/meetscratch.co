@@ -1,7 +1,7 @@
 import { MDXLayoutRenderer } from 'pliny/mdx-components'
 import { components } from '@/components/MDXComponents'
-import ProjectsSection from '../components/ProjectsSection'
 import ValuesSection from '../components/ValuesSection'
+import ProductsSection from '../components/ProductsSection'
 
 export default async function Page() {
   return (
@@ -15,7 +15,7 @@ export default async function Page() {
         </p>
       </div>
       <ValuesSection />
-      <ProjectsSection />
+      <ProductsSection />
     </>
   )
 }

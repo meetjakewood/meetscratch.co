@@ -1,8 +1,8 @@
 import React from 'react'
-import ProjectCard from './ProjectCard'
+import ProductCard from './ProductCard'
 import { GiMiner } from 'react-icons/gi'
 
-const ProjectsSection: React.FC = () => {
+const ProductsSection: React.FC = () => {
   return (
     <div>
       <div className="space-y-5 pb-4 pt-6 md:pb-4 md:pt-12">
@@ -12,16 +12,16 @@ const ProjectsSection: React.FC = () => {
       </div>
       <div className="container py-3 md:py-6">
         <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
-          <ProjectCard
+          <ProductCard
             title="First Product"
             description="We'll report back when our first product is ready"
             Icon={GiMiner}
           />
-          {/* Add more ProjectCard components here as needed */}
+          {/* Add more ProductCard components here as needed */}
         </div>
       </div>
     </div>
   )
 }
 
-export default ProjectsSection
+export default ProductsSection

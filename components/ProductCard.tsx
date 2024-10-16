@@ -2,13 +2,13 @@ import React from 'react'
 import { IconType } from 'react-icons'
 import { RiMindMap } from 'react-icons/ri'
 
-interface ProjectCardProps {
+interface ProductCardProps {
   title: string
   description: string
   Icon?: IconType
 }
 
-const ProjectCard: React.FC<ProjectCardProps> = ({ title, description, Icon = RiMindMap }) => {
+const ProductCard: React.FC<ProductCardProps> = ({ title, description, Icon = RiMindMap }) => {
   return (
     <div className="flex flex-col items-start rounded-lg border-2 border-dashed border-gray-200 p-6 dark:border-gray-700">
       <div className="mb-2 flex items-center">
@@ -20,4 +20,4 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ title, description, Icon = Ri
   )
 }
 
-export default ProjectCard
+export default ProductCard
