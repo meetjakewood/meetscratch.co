@@ -27,7 +27,7 @@ import { allCoreContent, sortPosts } from 'pliny/utils/contentlayer.js'
 const root = process.cwd()
 const isProduction = process.env.NODE_ENV === 'production'
 
-// heroicon mini link
+// hero icon mini link
 const icon = fromHtmlIsomorphic(
   `
   <span class="content-header-link">
