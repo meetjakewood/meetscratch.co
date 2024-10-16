@@ -1,5 +1,3 @@
-import { MDXLayoutRenderer } from 'pliny/mdx-components'
-import { components } from '@/components/MDXComponents'
 import ValuesSection from '../components/ValuesSection'
 import ProductsSection from '../components/ProductsSection'
 
