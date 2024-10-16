@@ -1,5 +1,3 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
-
 # dependencies
 /node_modules
 /.pnp
@@ -17,7 +15,6 @@ public/sitemap.xml
 
 # production
 /build
-*.xml
 
 # rss feed
 /public/feed.xml
@@ -43,4 +40,5 @@ pnpm-error.log*
 # Contentlayer
 .contentlayer
 
+# Generated tag data
 /app/tag-data.json
